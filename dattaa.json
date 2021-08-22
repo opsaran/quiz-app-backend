@@ -1,0 +1,30 @@
+{
+  "userquiz": {
+    "creator": "OP",
+    "topic": "sports",
+    "questions": [
+      {
+        "question": "Who is what?",
+        "q_id": 1,
+        "correctanswerid": 13,
+        "options": [
+          { "option1": "lolls" },
+          { "option2": "jakak" },
+          { "option3": "hahhs" },
+          { "option4": "gagga" }
+        ]
+      },
+      {
+        "question": "how on earth?",
+        "q_id": 2,
+        "correctanswerid": 22,
+        "options": [
+          { "option1": "syuww" },
+          { "option2": "werw" },
+          { "option3": "dfsdfds" },
+          { "option4": "kfskk" }
+        ]
+      }
+    ]
+  }
+}
