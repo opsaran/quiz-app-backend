@@ -8,8 +8,9 @@ const getcreators = (req, res) => {
 const postquiz = (req, res) => {
   const { userquiz } = req.body;
   // console.log(req.body);
-  console.log("This is the second loh");
-  console.log(userquiz.questions[0].options);
+  // console.log("This is the second loh");
+  // console.log(userquiz);
+  // console.log(userquiz.questions[0].options);
   // const man = new Creator({ creator: creator, topic: topic });
   // man
   //   .save()
