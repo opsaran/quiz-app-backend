@@ -2,10 +2,13 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 //"mongodb://localhost:27017/quizappdb"
 
-mongoose.connect(`${process.env.DATABASE_URL}`, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+mongoose.connect(
+  `mongodb+srv://${process.env.USERNAME}:${process.env.PASSWORD}@cluster0.ukgld.mongodb.net/${process.env.DATABASE}?retryWrites=true&w=majority`,
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 const db = mongoose.connection;
 
